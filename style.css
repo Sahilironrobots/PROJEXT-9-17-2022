@@ -1,0 +1,116 @@
+table{
+ 
+  color:darkgreen;
+  border-style:inset;
+  border-width:3px;
+  border-color:yellowgreen;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  background-color: #E0FFFF
+}
+
+div{
+  margin-top:50px;
+  display:flex;
+  justify-content:center;
+  border-style: outset;
+  border-color: brown;
+  border-width: 10px;
+  border-left: none;
+  border-right:none;
+}
+
+img{
+  width:200px;
+   border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  border-left: 6px solid red;
+}
+
+#outDiv
+{
+  width: 1200px;
+  justify-content:center;
+   margin-left:auto;
+  margin-right:auto;
+}
+
+#first{
+   width: 100px;
+  height: 30px;
+  background: url("https://freepngimg.com/thumb/scroll/4-2-scroll-png.png");
+  background-size:100px;
+  transition:  height 1.5s;
+  border:none;
+  text-align:center;
+  color: white;
+  
+  
+}
+
+#first:hover{
+  height:150px;
+
+}
+#first:hover a{
+  transform: translate(0px,25px);
+  transition: 1s;
+   color:blue;
+  font-weight:bolder;
+}
+
+button{
+  border: none;
+  color: hotpink;
+  background-color:none;
+ 
+  
+  
+}
+
+button:hover{
+  transform: scale(1,-1);
+  transition-duration: 0.5s;
+  }
+
+a{
+  margin-top:20px;
+  color: snow;
+  font-family: 'Grape Nuts', cursive;
+  font-size:20px;
+  
+}
+
+#outertable td
+{
+  font-size:25px;
+  color: #0000FF
+}
+
+#innertable td{
+  font-size:15px;
+  color: #CD5C5C;
+  background-color:#00FFFF;
+  font-weight:bolder;
+  
+}
+#innertable{
+  float:left;
+}
+
+#smalltable
+{
+  border:none;
+font-family: 'Oswald', sans-serif;
+  background-color: #B0E0E6;
+  width: 300px;
+  max-height:200px;
+}
+#smalltable td,th
+{
+  font-size:15px;
+  color:#001f3f;
+}

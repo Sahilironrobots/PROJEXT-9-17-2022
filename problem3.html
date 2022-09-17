@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productt Description</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+</style>
+</head>
+<body bgcolor="#E5E5E5">
+    <div class="temp"> 
+        <h3> Product Page </h3>
+        <div class="tray"> 
+            <div class="item"><img src="pcimg.png" alt="computer"></div>
+            <div class="details">
+                <table id="page">
+                    <tr><td id="pname"> SNOWWOLF v<big>2</big> X <small>RIG</small></td></tr>
+                    <tr><td><span id="product"> Computer </span></td></tr>
+                    <tr><td > <i class="fa fa-star checked"></i> 
+                        <i class="fa fa-star checked"></i> 
+                         <i class="fa fa-star checked"></i> 
+                        <i class="fa fa-star checked"></i> 
+                        <i class="fa fa-star-half-full "></i>  </td> </tr>
+                      <tr>  <td id="price"> Rs. 88,900 <del>Rs 92,500</del> <span id="offer">50% Off</span></td> </tr>
+                      <tr> <td id="Description"> The Snowwolf v2 is a killer Machine that performs flawlessly and also looks insane. So go on and get a wolf for yourself and watch it guard your desk! with Ryzen 5 5600 OC CPU , Zotac RTX 3060 12GB AMP! OC White Edition , Ram 16Gb 3600Mhz DDR4 ARGB, 500 GB NvMe M.2 Gen3 SSD, all in b550 steel Legends Motherboard, powering up in 650W 80+ Bronze PSU. Custom Selves white Cables</td> </tr> 
+                        <tr> <td  id="space">
+                            <table id="page1">
+                            <tr> <td style="font-weight: bold;" > Color</td> 
+                            <td> White Edition</td></tr>
+                            <tr> <td style="font-weight: bold;font-weight: bold;"> Availability</td>
+                            <td> 6 in Stock</td></tr>
+                            <tr> <td style="line-height:3;font-weight: bold;">Extra Storage</td>
+                            <td> <input type="radio" value="120 Gb" name="memory" id="gb1">
+                                    <label for="gb1"> 1 Tb SSD </label>
+                                    <input type="radio" value="1 Tb" name="memory" id="tb1">
+                                    <label for="tb1"> 2 Tb HDD</label>
+                                    <input type="radio" value="2 Tb" name="memory" id="pt1">
+                                    <label for="pt1">Cloud</label></td></tr>
+                                    <tr> <td style="line-height: 3;font-weight: bold;"> Quantity</td>
+                                    <td ><select > <option value="1">1</option>
+                                        <option  value="2">2</option>
+                                        <option  value="3">3</option> </select></td></tr>
+                       </table></td></tr>
+                       
+                        
+                </table>
+               <button id="b1"> Buy Now</button>
+                            <button id="b2">Add to Cart </button>
+            </div>
+        </div>
+    </div>
+    <style>
+      select{
+        background-color:white; 
+        border:1 px solid black;
+        height: 20px;
+      }
+      select option{
+      
+        font-size: 12px;;
+      }
+        #product
+        {
+    font-weight: 500;
+    
+    color: #878787;
+    float: left;
+    line-height: 3;
+          font-family: 'Rubik', sans-serif;
+        }
+    #price
+    {
+        line-height: 3;
+    }
+    del{
+        font-size: smaller;
+    }
+    #offer
+    {
+        color: green;
+        font-weight: bold;
+    }
+    #space
+    {
+        padding-top: 15px;
+    }
+    .tray
+    {
+        display: flex;
+        width: 950px;
+      height: 600px;
+        justify-content: center;
+      margin-left:100px;
+       
+    }
+    .temp
+    {
+        justify-content: center;
+        width: 1000px;
+      height:650px;
+        margin-top: 100px;
+    
+      margin-left:auto;
+      margin-right: auto;
+      text-align:center;
+      background-color:white;
+     
+
+       
+    }
+    .item
+    {
+        width:420px;
+        
+        
+       
+        height: 300px;
+        margin-top: 50px;
+    }
+    img{
+        width: 400px;
+        padding-top: 50px;
+        
+        border: 0.1px solid gainsboro;
+    }
+    .details
+    {
+        
+        text-align: left;
+        margin-left:10px;
+        width:800px
+    }
+    #page{
+        width:450px;
+        text-align: justify;
+    }
+    h3{
+        margin-left:100;
+      font-family: 'Rubik', sans-serif;
+    }
+    #pname
+    {
+        font-weight: bold;
+        font-family: 'Rubik', sans-serif;
+      font-size: large;
+       }
+      #Description
+      {
+        font-family: 'Rubik', sans-serif;
+        font-size: smaller;
+      }
+   #page1
+      {
+        font-family: 'Rubik', sans-serif;
+      }
+      #b1{
+        background-color:#0080FF;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        height: 30px;
+       border-radius: 5px;
+        margin-left:30px;
+        width: 80px;
+         box-shadow: 1px 1px 1px #000000;
+      }
+      #b1:hover{
+      background-color:#3D7CE7;
+        cursor:pointer;
+      }
+     #b2:hover{
+       background-color:  #DFDEDD;
+       cursor:pointer;
+     }
+    
+      #b2
+      {
+         background-color:#E5E5E5;
+        color: black;
+        font-family: 'Rubik', sans-serif;
+        height: 30px;
+        border-radius: 5px;
+         box-shadow: 1px 1px 1px #000000;
+      }
+       button:active 
+      {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+      }
+      
+    </style>
+</body>
+</html>
